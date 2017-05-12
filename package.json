@@ -1,0 +1,32 @@
+{
+  "name": "sorting-app",
+  "version": "1.0.0",
+  "description": "A sorting hat Node app.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurunate/sorting-app.git"
+  },
+  "keywords": [],
+  "author": "Nate Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurunate/sorting-app/issues"
+  },
+  "homepage": "https://github.com/gurunate/sorting-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.8",
+    "rc": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

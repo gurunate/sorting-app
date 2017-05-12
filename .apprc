@@ -1,0 +1,11 @@
+[development]
+title = The Sorting Hat app [dev]
+port = 9200
+
+[test]
+title = The Sorting Hat app [test]
+port = 9200
+
+[production]
+title = The Sorting Hat app
+port = 9200
